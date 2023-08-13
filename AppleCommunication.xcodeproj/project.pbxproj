@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9623DFB42A87C2F600FEF2EA /* AppleCommunicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFB32A87C2F600FEF2EA /* AppleCommunicationApp.swift */; };
-		9623DFB62A87C2F600FEF2EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFB52A87C2F600FEF2EA /* ContentView.swift */; };
 		9623DFB82A87C2F700FEF2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9623DFB72A87C2F700FEF2EA /* Assets.xcassets */; };
 		9623DFBB2A87C2F700FEF2EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9623DFBA2A87C2F700FEF2EA /* Preview Assets.xcassets */; };
 		9623DFC52A87C2F700FEF2EA /* AppleCommunicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFC42A87C2F700FEF2EA /* AppleCommunicationTests.swift */; };
 		9623DFCF2A87C2F700FEF2EA /* AppleCommunicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFCE2A87C2F700FEF2EA /* AppleCommunicationUITests.swift */; };
 		9623DFD12A87C2F700FEF2EA /* AppleCommunicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFD02A87C2F700FEF2EA /* AppleCommunicationUITestsLaunchTests.swift */; };
+		9623DFE52A87C5CB00FEF2EA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFE42A87C5CB00FEF2EA /* Contact.swift */; };
+		9623DFE72A87C66A00FEF2EA /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFE62A87C66A00FEF2EA /* List.swift */; };
+		9623DFE92A87C6C500FEF2EA /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFE82A87C6C500FEF2EA /* Call.swift */; };
+		9623DFED2A87CC3B00FEF2EA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFEC2A87CC3B00FEF2EA /* TabBar.swift */; };
+		9623DFF02A87D18E00FEF2EA /* CallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFEF2A87D18E00FEF2EA /* CallsView.swift */; };
+		9623DFF32A885CFB00FEF2EA /* FavouriteContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFF22A885CFB00FEF2EA /* FavouriteContactView.swift */; };
+		9623DFF52A88659200FEF2EA /* RecentCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFF42A88659200FEF2EA /* RecentCallView.swift */; };
+		9623DFF72A8868C300FEF2EA /* FacetimeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFF62A8868C300FEF2EA /* FacetimeMessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		9623DFB02A87C2F600FEF2EA /* AppleCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9623DFB32A87C2F600FEF2EA /* AppleCommunicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCommunicationApp.swift; sourceTree = "<group>"; };
-		9623DFB52A87C2F600FEF2EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9623DFB72A87C2F700FEF2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9623DFBA2A87C2F700FEF2EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9623DFC02A87C2F700FEF2EA /* AppleCommunicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCommunicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,14 @@
 		9623DFCA2A87C2F700FEF2EA /* AppleCommunicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCommunicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9623DFCE2A87C2F700FEF2EA /* AppleCommunicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCommunicationUITests.swift; sourceTree = "<group>"; };
 		9623DFD02A87C2F700FEF2EA /* AppleCommunicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCommunicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9623DFE42A87C5CB00FEF2EA /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		9623DFE62A87C66A00FEF2EA /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		9623DFE82A87C6C500FEF2EA /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		9623DFEC2A87CC3B00FEF2EA /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		9623DFEF2A87D18E00FEF2EA /* CallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsView.swift; sourceTree = "<group>"; };
+		9623DFF22A885CFB00FEF2EA /* FavouriteContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteContactView.swift; sourceTree = "<group>"; };
+		9623DFF42A88659200FEF2EA /* RecentCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCallView.swift; sourceTree = "<group>"; };
+		9623DFF62A8868C300FEF2EA /* FacetimeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetimeMessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +142,8 @@
 		9623DFDD2A87C32C00FEF2EA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				9623DFB52A87C2F600FEF2EA /* ContentView.swift */,
+				9623DFEE2A87D17A00FEF2EA /* Calls */,
+				9623DFEC2A87CC3B00FEF2EA /* TabBar.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -136,6 +151,9 @@
 		9623DFDE2A87C33300FEF2EA /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				9623DFE42A87C5CB00FEF2EA /* Contact.swift */,
+				9623DFE62A87C66A00FEF2EA /* List.swift */,
+				9623DFE82A87C6C500FEF2EA /* Call.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -159,12 +177,31 @@
 			isa = PBXGroup;
 			children = (
 				9623DFB32A87C2F600FEF2EA /* AppleCommunicationApp.swift */,
+				9623DFF12A885CEF00FEF2EA /* UI */,
 				9623DFDE2A87C33300FEF2EA /* Domain */,
 				9623DFDD2A87C32C00FEF2EA /* Scenes */,
 				9623DFDF2A87C33900FEF2EA /* Network */,
 				9623DFE02A87C33F00FEF2EA /* Resources */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		9623DFEE2A87D17A00FEF2EA /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				9623DFEF2A87D18E00FEF2EA /* CallsView.swift */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		9623DFF12A885CEF00FEF2EA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9623DFF22A885CFB00FEF2EA /* FavouriteContactView.swift */,
+				9623DFF42A88659200FEF2EA /* RecentCallView.swift */,
+				9623DFF62A8868C300FEF2EA /* FacetimeMessageView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,8 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9623DFB62A87C2F600FEF2EA /* ContentView.swift in Sources */,
+				9623DFE52A87C5CB00FEF2EA /* Contact.swift in Sources */,
+				9623DFE72A87C66A00FEF2EA /* List.swift in Sources */,
+				9623DFE92A87C6C500FEF2EA /* Call.swift in Sources */,
+				9623DFF72A8868C300FEF2EA /* FacetimeMessageView.swift in Sources */,
+				9623DFED2A87CC3B00FEF2EA /* TabBar.swift in Sources */,
+				9623DFF02A87D18E00FEF2EA /* CallsView.swift in Sources */,
+				9623DFF32A885CFB00FEF2EA /* FavouriteContactView.swift in Sources */,
 				9623DFB42A87C2F600FEF2EA /* AppleCommunicationApp.swift in Sources */,
+				9623DFF52A88659200FEF2EA /* RecentCallView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
