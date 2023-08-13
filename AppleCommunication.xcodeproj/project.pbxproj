@@ -21,6 +21,8 @@
 		9623DFF32A885CFB00FEF2EA /* FavouriteContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFF22A885CFB00FEF2EA /* FavouriteContactView.swift */; };
 		9623DFF52A88659200FEF2EA /* RecentCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFF42A88659200FEF2EA /* RecentCallView.swift */; };
 		9623DFF72A8868C300FEF2EA /* FacetimeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFF62A8868C300FEF2EA /* FacetimeMessageView.swift */; };
+		9623DFFA2A89219A00FEF2EA /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFF92A89219A00FEF2EA /* InboxView.swift */; };
+		9623DFFE2A89234500FEF2EA /* FaceTimeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623DFFD2A89234500FEF2EA /* FaceTimeMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		9623DFF22A885CFB00FEF2EA /* FavouriteContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteContactView.swift; sourceTree = "<group>"; };
 		9623DFF42A88659200FEF2EA /* RecentCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCallView.swift; sourceTree = "<group>"; };
 		9623DFF62A8868C300FEF2EA /* FacetimeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetimeMessageView.swift; sourceTree = "<group>"; };
+		9623DFF92A89219A00FEF2EA /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		9623DFFD2A89234500FEF2EA /* FaceTimeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTimeMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 		9623DFDD2A87C32C00FEF2EA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				9623DFF82A89218E00FEF2EA /* Inbox */,
 				9623DFEE2A87D17A00FEF2EA /* Calls */,
 				9623DFEC2A87CC3B00FEF2EA /* TabBar.swift */,
 			);
@@ -154,6 +159,7 @@
 				9623DFE42A87C5CB00FEF2EA /* Contact.swift */,
 				9623DFE62A87C66A00FEF2EA /* List.swift */,
 				9623DFE82A87C6C500FEF2EA /* Call.swift */,
+				9623DFFD2A89234500FEF2EA /* FaceTimeMessage.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -202,6 +208,14 @@
 				9623DFF62A8868C300FEF2EA /* FacetimeMessageView.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		9623DFF82A89218E00FEF2EA /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				9623DFF92A89219A00FEF2EA /* InboxView.swift */,
+			);
+			path = Inbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,9 +352,11 @@
 				9623DFE72A87C66A00FEF2EA /* List.swift in Sources */,
 				9623DFE92A87C6C500FEF2EA /* Call.swift in Sources */,
 				9623DFF72A8868C300FEF2EA /* FacetimeMessageView.swift in Sources */,
+				9623DFFE2A89234500FEF2EA /* FaceTimeMessage.swift in Sources */,
 				9623DFED2A87CC3B00FEF2EA /* TabBar.swift in Sources */,
 				9623DFF02A87D18E00FEF2EA /* CallsView.swift in Sources */,
 				9623DFF32A885CFB00FEF2EA /* FavouriteContactView.swift in Sources */,
+				9623DFFA2A89219A00FEF2EA /* InboxView.swift in Sources */,
 				9623DFB42A87C2F600FEF2EA /* AppleCommunicationApp.swift in Sources */,
 				9623DFF52A88659200FEF2EA /* RecentCallView.swift in Sources */,
 			);

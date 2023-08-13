@@ -7,17 +7,25 @@
 
 import SwiftUI
 
+struct ContactAvatarView: View {
+    let contact: Contact
+    
+    var body: some View {
+        Circle()
+            .fill(Color("Color\(Int.random(in: 1...4))"))
+            .overlay {
+                Image(contact.image)
+                    .resizable()
+            }
+    }
+}
+
 struct FavouriteContactView: View {
     let contact: Contact
     
     var body: some View {
         VStack{
-            Circle()
-                .fill(Color("Color\(Int.random(in: 1...4))"))
-                .overlay {
-                    Image(contact.image)
-                        .resizable()
-                }
+            ContactAvatarView(contact: contact)
             Text(contact.name)
                 .font(.footnote)
                 .foregroundColor(.gray)

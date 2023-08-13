@@ -7,22 +7,15 @@
 
 import SwiftUI
 
-struct Item: Identifiable, Hashable {
-    let id = UUID()
-    var name: String
-}
-
 struct CallsView: View {
     
     let contacts = Contact.dummyContacts
     let calls = Call.dummyCalls
-    
-    let item = Item(name: "bananas")
+
     @State var searchText: String = ""
     
     var body: some View {
         NavigationStack {
-            
             ScrollView {
                 LazyVStack {
                     
@@ -41,14 +34,10 @@ struct CallsView: View {
                     }
                 }
             }
-        
             
             .navigationTitle("Calls")
             .navigationBarTitleDisplayMode(.large)
             .searchable(text: $searchText)
-            .navigationDestination(for: Item.self) { item in
-                Text(item.name)
-            }
             
             Spacer()
         }

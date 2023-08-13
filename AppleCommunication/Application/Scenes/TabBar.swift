@@ -17,7 +17,7 @@ struct TabBar: View {
                 Label("Calls", systemImage: "phone.fill")
             }
             
-            Text("Inbox").tabItem {
+            InboxView().tabItem {
                 Label("Inbox", systemImage: "tray.fill")
             }
             
