@@ -55,20 +55,21 @@ struct FavouritesGrid: View {
                 FavouriteContactView(contact: favouritesContacts.randomElement()!)
                 FavouriteContactView(contact: favouritesContacts.randomElement()!)
             }
+            .frame(width: 110, height: 110)
             GridRow {
                 FavouriteContactView(contact: favouritesContacts.randomElement()!)
                 FavouriteContactView(contact: favouritesContacts.randomElement()!)
                 FavouriteContactView(contact: favouritesContacts.randomElement()!)
             }
+            .frame(width: 110, height: 110)
             GridRow {
                 FavouriteContactView(contact: favouritesContacts.randomElement()!)
                 FavouriteContactView(contact: favouritesContacts.randomElement()!)
                 FavouriteContactView(contact: favouritesContacts.randomElement()!)
             }
-            
-            
-            
+            .frame(width: 110, height: 110)
         }
+        
         .padding(.horizontal)
     }
 }

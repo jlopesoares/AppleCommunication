@@ -10,6 +10,7 @@ import SwiftUI
 struct InboxView: View {
     
     let faceTimeMessages = FaceTimeMessage.dummyFaceTimeMessages + FaceTimeMessage.dummyFaceTimeMessages
+    let voiceMailMessages = VoiceMailMessage.dummyVoiceMailMessages
 
     @State var searchText: String = ""
     
@@ -31,13 +32,18 @@ struct InboxView: View {
                         .padding(.horizontal)
                     }
                     
-                    
                     Header(title: "VoiceMail")
                         .padding(.leading, 8)
-                        .padding(.top, 12)
+                        .padding(.vertical, 12)
                     
                     Divider()
                     
+                    LazyVStack {
+                        ForEach(voiceMailMessages) { message in
+                            VoiceMailMessageView(voiceMailMessage: message)
+                            Divider()
+                        }
+                    }
                 }
             }
             
